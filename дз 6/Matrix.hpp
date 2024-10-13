@@ -5,14 +5,13 @@
 //  Created by Егор Джемлиханов on 26.09.2024.
 //
 
-
 #pragma once
 
 class Matrix
 {
     int** ptr;
-    int str; // строки
-    int st;  // столбцы
+    int str;
+    int st;
 
 public:
     Matrix();
@@ -28,5 +27,5 @@ public:
     int GetElement(int row, int col);
 
     void Input();
-    void Print() const;
+    void Print() const;  
 };

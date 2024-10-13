@@ -5,7 +5,6 @@
 //  Created by Егор Джемлиханов on 25.09.2024.
 //
 
-
 #include<iostream>
 #include "Matrix.hpp"
 
@@ -27,7 +26,7 @@ int main()
     Matrix multiMatrix = obj1.MultiMatrix(obj2);
     multiMatrix.Print();
 
-    Matrix transposedMatrix = obj1.TransposeMatrix();
+    Matrix transposedMatrix = obj1.TransposeMatrix(); 
     transposedMatrix.Print();
 
     return 0;

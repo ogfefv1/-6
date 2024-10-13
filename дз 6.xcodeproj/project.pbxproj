@@ -244,6 +244,8 @@
 		89BC96A32CA4344D005CD27D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "дз 6/дз 6.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RP3LL47B6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -254,6 +256,8 @@
 		89BC96A42CA4344D005CD27D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "дз 6/дз 6.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RP3LL47B6;
 				ENABLE_HARDENED_RUNTIME = YES;

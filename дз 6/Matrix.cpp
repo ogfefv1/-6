@@ -5,7 +5,6 @@
 //  Created by Егор Джемлиханов on 26.09.2024.
 //
 
-
 #include "Matrix.hpp"
 #include <iostream>
 
@@ -68,7 +67,7 @@ Matrix Matrix::MultiMatrix(const Matrix& arr2)
 {
     if (st != arr2.str)
     {
-        cout << "Ошибка: st != str" << endl;
+        cout << "Ошибка: количество столбцов первой матрицы не равно количеству строк второй" << endl;
         return *this;
     }
 
